@@ -14,14 +14,14 @@ const AboutSection = () => {
                     <p className="text-base lg:text-lg">
                         In the dynamic pace of academic life at Northeastern University, I find myself fully engaged in the intricate world of Information Systems,
                         expanding upon my Computer Engineering foundation. With an insatiable thirst for knowledge,
-                        I'm not only delving into software development but also immersing myself in the depths of data science.
+                        I&apos;m not only delving into software development but also immersing myself in the depths of data science.
                         This journey is a humble exploration, weaving together these disciplines to navigate through uncharted territories with earnest curiosity
                         and a steadfast commitment to innovation.
                         <br></br>
                         <br></br>
 
-                        When I'm not deciphering lines of code or unraveling the mysteries of the digital realm,
-                        you'll likely find me lost in the pages of a gripping high-fantasy novel, looking for the best ramen places,
+                        When I&apos;m not deciphering lines of code or unraveling the mysteries of the digital realm,
+                        you&apos;ll likely find me lost in the pages of a gripping high-fantasy novel, looking for the best ramen places,
                         or venturing into the great outdoors, camera in hand, capturing the beauty of nature.
                     </p>
                 </div>

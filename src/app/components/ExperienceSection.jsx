@@ -80,13 +80,13 @@ const ExperienceSection = () => {
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
                         <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Bachelor's in Computer Engineering
+                            <div class="font-bold">Bachelor&apos;s in Computer Engineering
                                 <p>India</p>
                             </div>
                             <time class="font-caveat font-medium text-white">2018-2021</time>
                         </div>
                         <div class="text-slate-300">
-                            Graduated with a Bachelor's degree in Computer Engineering from Pune University in June 2021.
+                            Graduated with a Bachelor&apos;s degree in Computer Engineering from Pune University in June 2021.
                         </div>
                     </div>
                 </div>
@@ -116,13 +116,13 @@ const ExperienceSection = () => {
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
                         <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Master's In Information Systems
+                            <div class="font-bold">Master&apos;s In Information Systems
                                 <p>Northeastern University</p>
                             </div>
                             <time class="font-caveat font-medium text-white">Exp. 12/08/2023</time>
                         </div>
                         <div class="text-slate-300">
-                            Graduated with a Master's in Information Systems from Northeastern University in May 2024.
+                            Graduated with a Master&apos;s in Information Systems from Northeastern University in May 2024.
                         </div>
                     </div>
                 </div>
