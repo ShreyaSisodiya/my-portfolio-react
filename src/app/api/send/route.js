@@ -34,9 +34,9 @@ export async function POST(req, res) {
             console.log('Message sent: %s', info.messageId);
         });
 
-        return NextResponse.json("status: " + data);
+        return NextResponse.json({ message: 'sent' }, { status: 200 })
 
     } catch (error) {
-
+        return NextResponse.json({ error: error }, { status: 500 })
     }
 }
