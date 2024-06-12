@@ -11,7 +11,7 @@ const projectsData = [
         description: "Personal portfolio made with React and Nextjs",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/ShreyaSisodiya/my-portfolio-react",
         previewUrl: "/",
     },
     {
@@ -29,8 +29,8 @@ const projectsData = [
         description: "Developed a virtual arcade, offering 11 classics like Minesweeper & TicTacToe, with personal profiles & leaderboards. Made using MERN stack.",
         image: "/images/projects/4.webp",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/Muskansri1/ArcadeMania",
+        previewUrl: "https://github.com/Muskansri1/ArcadeMania",
     },
     {
         id: 4,
@@ -101,7 +101,7 @@ const ProjectsSection = () => {
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    name="Web"
+                    name="Web / Software Devlopement"
                     isSelected={tag === "Web"}
                 />
                 <ProjectTag
