@@ -29,7 +29,7 @@ export async function POST(req, res) {
         // Send mail with defined transport object
         transporter.sendMail(mailOptions, (error, info) => {
             if (error) {
-                return console.log(error);
+                return NextResponse.json({ error: error }, { status: 500 })
             }
             console.log('Message sent: %s', info.messageId);
         });
