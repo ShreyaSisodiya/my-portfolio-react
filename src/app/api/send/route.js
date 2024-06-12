@@ -27,7 +27,7 @@ export async function POST(req, res) {
         };
 
         // Send mail with defined transport object
-        transporter.sendMail(mailOptions, (error, info) => {
+        await transporter.sendMail(mailOptions, (error, info) => {
             if (error) {
                 return NextResponse.json({ error: error }, { status: 500 })
             }
