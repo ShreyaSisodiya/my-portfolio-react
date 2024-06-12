@@ -119,7 +119,7 @@ const ExperienceSection = () => {
                             <div class="font-bold">Graduate Teaching Assitant
                                 <p>Boston, MA</p>
                             </div>
-                            <time class="font-caveat font-medium text-white">2021-2022</time>
+                            <time class="font-caveat font-medium text-white">2023-2024</time>
                         </div>
                         <div class="text-slate-300">
 
@@ -139,7 +139,7 @@ const ExperienceSection = () => {
                             <div class="font-bold">Master&apos;s In Information Systems
                                 <p>Boston, MA</p>
                             </div>
-                            <time class="font-caveat font-medium text-white">Exp. 12/08/2023</time>
+                            <time class="font-caveat font-medium text-white">May 2024</time>
                         </div>
                         <div class="text-slate-300">
                             Graduated with a Master&apos;s in Information Systems from Northeastern University in May 2024.
