@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { resolve } from "styled-jsx/css";
 
 const nodemailer = require('nodemailer');
 require('dotenv').config();
@@ -27,12 +28,18 @@ export async function POST(req, res) {
         };
 
         // Send mail with defined transport object
-        await transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-                return NextResponse.json({ error: error }, { status: 500 })
-            }
-            console.log('Message sent: %s', info.messageId);
-        });
+        await new Promise((resolve, reject) => {
+            transporter.sendMail(mailOptions, (error, info) => {
+                if (error) {
+                    return NextResponse.json({ error: error }, { status: 500 })
+                }
+                console.log('Message sent: %s', info.messageId);
+            });
+        })
+
+
+
+
 
         return NextResponse.json({ message: 'sent' }, { status: 200 })
 
