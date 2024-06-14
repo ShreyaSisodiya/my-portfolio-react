@@ -60,15 +60,18 @@ const ExperienceSection = () => {
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
                         <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Software Developer Intern
+                            <div class="font-bold">Data Science Intern
                                 <p>India</p>
                             </div>
-                            <time class="font-caveat font-medium text-white">May 2019- June 2019</time>
+                            <time class="font-caveat font-medium text-white">January 2020- December 2020</time>
                         </div>
                         <div class="text-slate-300">
-                            As a Software Engineer intern at Astora  Syndicate, I worked on both front-end and back-end development,
+                            {/* As a Data Science intern at Astora  Syndicate, I worked on both front-end and back-end development,
                             creating dynamic user interfaces with ReactJS, achieving extensive test coverage,
-                            and integrating RESTful APIs for enhanced application performance.
+                            and integrating RESTful APIs for enhanced application performance. */}
+
+                            As a Data Science intern at Astora  Syndicate, I enhanced operational efficiency
+                            and mitigated fraud through advanced data analysis and streamlined reporting
                         </div>
                     </div>
                 </div>
@@ -123,7 +126,7 @@ const ExperienceSection = () => {
                         </div>
                         <div class="text-slate-300">
 
-                            As a Teaching Assistant for Web Development, I managed course content,
+                            As a Teaching Assistant for Web Development and Data Engineering, I managed course content,
                             provided one-on-one student support, and developed and graded assignments.
                         </div>
                     </div>
