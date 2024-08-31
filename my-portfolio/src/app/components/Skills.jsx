@@ -13,7 +13,7 @@ const Skills = () => {
         <section id="skills" className="mb-28 mt-30 sm:mb-40 ">
             <div className="container mx-auto max-w-[53rem] my-20 text-center scroll-mt-28">
                 <h2 className="text-center text-4xl font-bold text-white mt-20 mb-8 md:mb-12">
-                    Tools and Technologies which help me help you!
+                    Tools That Bring Your Ideas to Life
                 </h2>
                 <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 dark:text-white/80">
                     {skills.map((skill, index) => (
