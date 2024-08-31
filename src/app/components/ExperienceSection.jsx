@@ -42,13 +42,69 @@ const ExperienceSection = () => {
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
                         <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Diploma in Computer Technology
-                                <p>India</p>
+                            <div class="font-bold">Master&apos;s In Information Systems
+                                <p>Boston, MA</p>
                             </div>
-                            <time class="font-caveat font-medium text-white">2015 - 2018</time>
+                            <time class="font-caveat font-medium text-white">May 2024</time>
                         </div>
                         <div class="text-slate-300">
-                            Graduated with Diploma in Computer Technology from Mumbai University in June 2018.
+                            Graduated with a Master&apos;s in Information Systems from Northeastern University in May 2024.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    {/* <!-- Icon --> */}
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="#7d26e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
+                        <div class="flex items-center justify-between space-x-2 mb-1">
+                            <div class="font-bold">Graduate Teaching Assitant
+                                <p>Boston, MA</p>
+                            </div>
+                            <time class="font-caveat font-medium text-white">2023-2024</time>
+                        </div>
+                        <div class="text-slate-300">
+
+                            As a Teaching Assistant for Web Development and Data Engineering, I managed course content,
+                            provided one-on-one student support, and developed and graded assignments.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    {/* <!-- Icon --> */}
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="#7d26e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
+                        <div class="flex items-center justify-between space-x-2 mb-1">
+                            <div class="font-bold">Software Engineer
+                                <p>India</p>
+                            </div>
+                            <time class="font-caveat font-medium text-white">2021-2022</time>
+                        </div>
+                        <div class="text-slate-300">
+
+                            As a Software Engineer at Dynaxcel, I led a comprehensive modernization effort, including UI revamp, code optimization, API development, automated testing implementation, and CI/CD pipeline setup.</div>
+                    </div>
+                </div>
+
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    {/* <!-- Icon --> */}
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <svg fill="#7d26e8" viewBox="-1 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16.141 7.905c.24.102.24.269 0 .37l-7.204 3.058a1.288 1.288 0 0 1-.874 0L.859 8.276c-.24-.102-.24-.27 0-.371l7.204-3.058a1.287 1.287 0 0 1 .874 0zm-6.833 4.303 3.983-1.69v2.081c0 1.394-2.145 2.524-4.791 2.524s-4.79-1.13-4.79-2.524v-2.082l3.982 1.69a2.226 2.226 0 0 0 1.616 0zm4.94 1.677h1.642v-1.091a.822.822 0 1 0-1.643 0zm.82-3.603a.554.554 0 1 0-.553-.554.554.554 0 0 0 .554.554zm0 1.415a.554.554 0 1 0-.553-.555.554.554 0 0 0 .554.555z"></path></g></svg>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
+                        <div class="flex items-center justify-between space-x-2 mb-1">
+                            <div class="font-bold">Bachelor&apos;s in Computer Engineering
+                                <p>India</p>
+                            </div>
+                            <time class="font-caveat font-medium text-white">2018-2021</time>
+                        </div>
+                        <div class="text-slate-300">
+                            Graduated with a Bachelor&apos;s degree in Computer Engineering from Pune University in June 2021.
                         </div>
                     </div>
                 </div>
@@ -83,69 +139,13 @@ const ExperienceSection = () => {
                     </div>
                     <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
                         <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Bachelor&apos;s in Computer Engineering
+                            <div class="font-bold">Diploma in Computer Technology
                                 <p>India</p>
                             </div>
-                            <time class="font-caveat font-medium text-white">2018-2021</time>
+                            <time class="font-caveat font-medium text-white">2015 - 2018</time>
                         </div>
                         <div class="text-slate-300">
-                            Graduated with a Bachelor&apos;s degree in Computer Engineering from Pune University in June 2021.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                    {/* <!-- Icon --> */}
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="#7d26e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
-                        <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Software Engineer
-                                <p>India</p>
-                            </div>
-                            <time class="font-caveat font-medium text-white">2021-2022</time>
-                        </div>
-                        <div class="text-slate-300">
-
-                            As a Software Engineer at Dynaxcel, I led a comprehensive modernization effort, including UI revamp, code optimization, API development, automated testing implementation, and CI/CD pipeline setup.</div>
-                    </div>
-                </div>
-
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                    {/* <!-- Icon --> */}
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 7H5C3.89543 7 3 7.89543 3 9V18C3 19.1046 3.89543 20 5 20H19C20.1046 20 21 19.1046 21 18V9C21 7.89543 20.1046 7 19 7H15M9 7V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7M9 7H15" stroke="#7d26e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
-                        <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Graduate Teaching Assitant
-                                <p>Boston, MA</p>
-                            </div>
-                            <time class="font-caveat font-medium text-white">2023-2024</time>
-                        </div>
-                        <div class="text-slate-300">
-
-                            As a Teaching Assistant for Web Development and Data Engineering, I managed course content,
-                            provided one-on-one student support, and developed and graded assignments.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-                    {/* <!-- Icon --> */}
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
-                        <svg fill="#7d26e8" viewBox="-1 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg" stroke="#7d26e8"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16.141 7.905c.24.102.24.269 0 .37l-7.204 3.058a1.288 1.288 0 0 1-.874 0L.859 8.276c-.24-.102-.24-.27 0-.371l7.204-3.058a1.287 1.287 0 0 1 .874 0zm-6.833 4.303 3.983-1.69v2.081c0 1.394-2.145 2.524-4.791 2.524s-4.79-1.13-4.79-2.524v-2.082l3.982 1.69a2.226 2.226 0 0 0 1.616 0zm4.94 1.677h1.642v-1.091a.822.822 0 1 0-1.643 0zm.82-3.603a.554.554 0 1 0-.553-.554.554.554 0 0 0 .554.554zm0 1.415a.554.554 0 1 0-.553-.555.554.554 0 0 0 .554.555z"></path></g></svg>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-transparent  p-4 rounded border border-violet-950 shadow">
-                        <div class="flex items-center justify-between space-x-2 mb-1">
-                            <div class="font-bold">Master&apos;s In Information Systems
-                                <p>Boston, MA</p>
-                            </div>
-                            <time class="font-caveat font-medium text-white">May 2024</time>
-                        </div>
-                        <div class="text-slate-300">
-                            Graduated with a Master&apos;s in Information Systems from Northeastern University in May 2024.
+                            Graduated with Diploma in Computer Technology from Mumbai University in June 2018.
                         </div>
                     </div>
                 </div>
